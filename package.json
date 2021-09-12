@@ -1,0 +1,27 @@
+{
+  "name": "cwb-open-data-rest-service",
+  "version": "1.0.0",
+  "description": "cwb-open-data-rest-service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "npx nodemon --exec node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pfowenli/cwb-open-data-rest-service.git"
+  },
+  "author": "Owen P. F. Li",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pfowenli/cwb-open-data-rest-service/issues"
+  },
+  "homepage": "https://github.com/pfowenli/cwb-open-data-rest-service#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^4.1.1"
+  }
+}
